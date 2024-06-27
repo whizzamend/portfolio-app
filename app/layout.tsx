@@ -7,7 +7,7 @@ import AosWrapper from "@/components/aos-wrapper";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("http://localhost:3000/"),
+  metadataBase: new URL("https://nurislom-portfolio.vercel.app/"),
 
   title: "Nurislom | Personal Portfolio",
   authors: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "Nurislom's Personal Portfolio",
     description:
       "Based in Uzbekistan, I'm a Front-End developer passionate about building a modern web application that users love.",
-    url: "http://localhost:3000/",
+    url: "https://nurislom-portfolio.vercel.app/",
     siteName: "Nurislom",
     images: "/og.png",
     type: "website",
