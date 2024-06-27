@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
+import AosWrapper from "@/components/aos-wrapper";
 
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -34,12 +35,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        />
-      </head>
       <body className={spaceGrotesk.className}>
         <ThemeProvider
           attribute="class"
@@ -47,10 +42,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <AosWrapper>{children}</AosWrapper>
         </ThemeProvider>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
       </body>
     </html>
   );
