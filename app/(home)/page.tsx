@@ -1,5 +1,3 @@
-import Aos from "aos";
-import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
@@ -17,7 +15,9 @@ export default function Home() {
       <div className="max-w-7xl mx-auto p-5 mt-20">
         <Skillz dataAos="fade-up" />
         <Projects />
-        <Footer givenDataAos="zoom-in-up" />
+        <div className="border-t mt-10">
+          <Navbar className="flex-col gap-5" givenDataAos="zoom-in-up" />
+        </div>
       </div>
     </div>
   );
