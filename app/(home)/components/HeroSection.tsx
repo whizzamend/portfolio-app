@@ -15,7 +15,7 @@ const HeroSection = () => {
         <h1 className="text-4xl lg:text-7xl font-bold">
           Nice to see you here! 👋 <br />{" "}
           <span className="underline underline-offset-8 decoration-purple-600">
-            {"I'm Nurislom."}
+            {"I'm Whizzamend."}
           </span>
         </h1>
 

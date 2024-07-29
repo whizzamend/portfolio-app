@@ -33,7 +33,7 @@ const Navbar = ({
       data-aos={givenDataAos}
     >
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-purple-600 -rotate-2">
-        Nurislom 🧑🏻‍💻
+        Whizzamend💻
       </h1>
       <div className="flex items-center gap-5">
         {socials.map((social, index) => {
