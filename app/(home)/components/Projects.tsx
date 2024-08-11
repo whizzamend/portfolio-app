@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="py-10 p-5 sm:p-5">
+    <div className="py-10 p-5 sm:p-5 downToUpAnimation">
       <Title
         text="Projects 🎨"
         className="flex flex-col items-center justify-center rotate-6 cursor-default"

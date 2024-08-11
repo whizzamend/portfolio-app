@@ -4,19 +4,13 @@ import { twMerge } from "tailwind-merge";
 
 const Navbar = ({
   className,
-  givenDataAos,
 }: {
   className?: string;
   givenDataAos?: string;
 }) => {
   const socials = [
     {
-      link: "",
-      label: "LinkedIn",
-      Icon: SiLinkedin,
-    },
-    {
-      link: "",
+      link: "https://github.com/whizzamend",
       label: "Github",
       Icon: SiGithub,
     },
@@ -29,11 +23,10 @@ const Navbar = ({
 
   return (
     <nav
-      className={twMerge("py-10 flex justify-between items-center ", className)}
-      data-aos={givenDataAos}
+      className={twMerge("py-10 flex justify-between items-center", className)}
     >
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-purple-600 -rotate-2">
-        Whizzamend💻
+        Nurislom💻
       </h1>
       <div className="flex items-center gap-5">
         {socials.map((social, index) => {

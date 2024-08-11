@@ -81,3 +81,33 @@
   border-radius: 50%;
   box-shadow: 0 0 200px 130px #c026d3;
 }
+
+@keyframes downToUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes upToDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.upToDownAnimation {
+  animation: 1s upToDown 1 ease-in-out;
+}
+
+.downToUpAnimation {
+  animation: 1s downToUp 1 ease-in-out;
+}

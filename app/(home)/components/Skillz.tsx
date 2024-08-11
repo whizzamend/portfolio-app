@@ -55,7 +55,7 @@ const Skillz = ({ dataAos }: { dataAos?: string }) => {
   ];
 
   return (
-    <div className="max-w-5xl mx-auto px-8" data-aos={dataAos}>
+    <div className="max-w-5xl mx-auto px-8 downToUpAnimation">
       <Title
         text="Skillz 🎯"
         className="flex flex-col items-center justify-center -rotate-6 cursor-default"

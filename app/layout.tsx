@@ -41,7 +41,7 @@ export default function RootLayout({
           defaultTheme="dark"
           disableTransitionOnChange
         >
-          <AosWrapper>{children}</AosWrapper>
+          {children}
         </ThemeProvider>
       </body>
     </html>
