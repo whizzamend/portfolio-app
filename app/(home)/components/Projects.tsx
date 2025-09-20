@@ -19,13 +19,6 @@ export default function Projects() {
       cover: "/project-1.png",
       background: "bg-blue-500",
     },
-    {
-      title: "Posty App",
-      tech: [SiNextdotjs, SiSupabase, SiTailwindcss, SiTypescript],
-      link: "https://postyfrvr.vercel.app/",
-      cover: "/project-2.png",
-      background: "bg-neutral-600",
-    },
   ];
 
   return (
